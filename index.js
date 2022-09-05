@@ -25,6 +25,7 @@ process.stdin.on("data", (data) => {
 
 process.on("exit", () => {
   console.log(`
+  ====================
   Great Nairo!
 
   ${questions[0].slice(0, questions[0].length - 1)} was:
@@ -41,5 +42,7 @@ process.on("exit", () => {
 
   ${questions[4].slice(0, questions[0].length - 1)} was:
   ${answers[4]}
+  ====================
+  back tomorrow for more!
   `);
 });
