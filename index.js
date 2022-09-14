@@ -7,7 +7,7 @@ const questions = [
 ];
 
 const ask = (index = 0) => {
-  return process.stdout.write("\n" + questions[index] + " >");
+  return process.stdout.write("\n" + questions[index] + " > ");
 };
 
 ask();
